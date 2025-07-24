@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="sign_in.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="body">
+    <div class="navbar">
+        <a class="homepage" href="http://127.0.0.1:5500/homepage/homepage.html"><h4><i class="bi bi-chevron-left"></i>Quay về Trang Chủ</h4></a>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <div class="logo">ChemMarket</div>
+            <div class="tagline">Website cung cấp hóa chất, dụng cụ và thiết bị phòng thí nghiệm uy tín hàng đầu tại Việt Nam.</div>
+        </div>
+        <div class="right-section">
+            <div class="login-form">
+                <h3 style="text-align: center; padding: 10px;">Đăng nhập</h3>
+                <form>
+                    <input class="input" type="email" id="email" placeholder="Email">
+                    <input class="input" type="password" id="password" placeholder="Mật khẩu">
+                    <button type="button" class="sign-in_btn btn btn-danger" type="submit">ĐĂNG NHẬP</button>
+                    <p style="margin: 0px; padding: 10px; font-size: 18px; text-align: center;">Hoặc</p>
+                    <button type="button" class="gg_btn btn btn-light" id="lmao" type="submit"><img style="height: 23px; padding-right: 5px;" src="../images/search.png" alt=""> Đăng nhập bằng Google</button>
+                </form>
+                <p style="text-align: center; padding-top: 5px;">Bạn chưa có tài khoản? <a style="text-decoration: none" href="http://127.0.0.1:5500/authentication/sign_up.html">Đăng ký</a></p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="sign_in.js"></script>
+</body>
+</html>

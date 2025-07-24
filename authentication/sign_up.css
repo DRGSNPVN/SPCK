@@ -1,0 +1,77 @@
+.body{
+    background-color: #166fe5;
+    margin: 0px;
+}
+.navbar{
+    background-color: #ffffff;
+    height: 100px;
+}
+.homepage{
+    text-decoration: none;
+    color: #1c1e21;
+    padding-left: 30px;
+}
+.container {
+    display: flex;
+    margin-top: 150px;
+    gap: 120px;
+}
+
+.left-section{
+    padding-top: 70px;
+    padding-left: 50px;
+    margin-bottom: 100px;
+    width: 700px;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tagline{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 32px;
+}
+.right-section{
+    position: relative;
+    bottom: 50px;
+}
+.signup-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+}
+
+.input{
+    width: 450px;
+    padding: 14px 20px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.sign-up_btn{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 450px;
+    background-color: #166fe5 !important;
+    border: none !important;
+}
+.sign-up_btn:hover{
+    background-color: #0e4c9d !important;
+}
+.gg_btn{
+    margin-left: 5px;
+    width: 450px;
+    height: 50px;
+    border: solid 1px #1c1e21 !important;
+    margin-top: 15px;
+}
