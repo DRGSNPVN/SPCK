@@ -26,11 +26,6 @@
     display: flex;
     gap: 10px;
 }
-.ad{
-    display: flex;
-    margin-left: -23px;
-    gap: 2px;
-}
 .h5{
     text-decoration: none;
     color: #EEEEEE;
@@ -112,10 +107,6 @@
     display: flex;
     gap: 10px;
 }
-#login{
-    display: flex;
-    gap: 10px;
-}
 .bottom_navbar{
     display: flex;
     justify-content: space-between;
@@ -148,98 +139,40 @@
 .search_button:hover{
     background-color: #004fb0 !important;
 }
-.h4{
-    text-decoration: none;
-}
-.h4:hover{
-    color: #499cc5;
-    cursor: pointer;
-}
-.container_2{
-    margin-top: 50px;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-}
-.icon_2{
-    font-size: 60px;
-    background-color: #0064de;
-    color: #EEEEEE;
-    padding: 20px 22px;
-    width: 104px;
-    border-radius: 20px;
-}
-.h5_2_1{
-    position: relative;
-    right: 25px;
-}
-.h5_2_2{
-    position: relative;
-    right: 50px;
-}
-.h5_2_3{
-    position: relative;
-    right: 30px;
-}
-.reason{
-    margin-left: 30px;
-    margin-bottom: 20px;
-    display: flex;
-}
-.s1{
-    margin-right: 100px;
-}
-.s2{
-    margin-right: 100px;
-}
-.category{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 30px;
-}
-.category_img{
-    border: solid 1px #000000;
-    border-radius: 20px;
-}
-.chemical{
+#productDiv{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    height: 500px;
+    margin: 30px;
 }
-.product_tab{
-    height: 340px;
+.product-item{
+    height: 350px;
+    width: 258px;
     background-color: #ffffff;
-    width: 252px;
-    border-radius: 10px;
-    border: solid 2px #0073ff;
     margin: 20px;
+    border-radius: 20px;
+    border: solid 2px #0064de;
 }
-.product_tab_img{
-    height: 240px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.product-item:hover{
+    border: solid 4px #0064de;
 }
-.product_tab:hover{
-    cursor: pointer;
-    border: solid 4px #0073ff;
+.price{
+    display: none;
 }
-.carousel_img{
-    height: 600px;
-    margin: 30px 0px 30px 30px;
+.name{
+    padding: 5px 10px;
+    font-size: 25px;
+    text-align: center;
 }
-.more_btn{
-    position: relative;
-    left: 625px;
-    border: solid 2px #0073ff !important;
-    color: #0073ff !important;
-    font-weight: 700 !important;
-    font-size: 22px !important;
-    width: 320px;
-    height: 50px;
+.img{
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.more_btn:hover{
-    color: #ffffff !important;
-    background-color: #0073ff !important;
+.bar{
+    background-color: #004fb0;
+    height: 100px;
+    color: #EEEEEE;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/987/697/small_2x/abstract-hexagon-pattern-dark-blue-background-medical-and-science-concept-molecular-structures-free-vector.jpg);
 }
 .footer{
     background-color: #0064de;
@@ -248,4 +181,4 @@
     display: flex;
     gap: 300px;
     padding: 20px 30px;
-}  
+}       

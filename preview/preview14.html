@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="chemical.css">
+    <link rel="stylesheet" href="preview.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <title>Hóa chất</title>
+    <title>Mô tả sản phẩm</title>
 </head>
 <body class="body">
     <div class="navbar">
@@ -30,11 +30,12 @@
                         <p>kwww</p>
                     </div>
                 </div>
+                <div class="vertical_line"></div>
             </div>
         </div>
         <div class="bottom_navbar">
             <div class="left_navbar2">
-                <a class="web_name" href="http://127.0.0.1:5500/homepage/homepage_after_login.html"><h1>ChemMarket</h1></a>
+                <a style="text-decoration: none;" href="http://127.0.0.1:5500/homepage/homepage.html"><h1 class="web_name">ChemMarket</h1></a>
             </div>
             <div class="mid_navbar2">
                 <input class="search_bar" type="text" placeholder="Tìm kiếm">
@@ -50,15 +51,18 @@
             </div>
         </div>
     </div>
-    <div class="bar">
-        <div style="padding-left: 30px; padding-top: 15px;">
-            <h3>Hóa chất</h3>
-            <div style="display: flex; gap: 5px;">
-                <a style="text-decoration: none; color: #ffffff;" href="http://127.0.0.1:5500/SPCK/homepage/homepage.html"><h5>Trang chủ</h5></a> <h5>/</h5> <h5>Hóa chất</h5>
-            </div>
+    <div class="container">
+        <img class="img" src="https://tschem.com.vn/wp-content/uploads/2020/06/pheu-bot-thuy-tinh-cuong-ngan-rong-duran-1-600x600.jpg" alt="">
+        <div class="productInfo">
+            <h2>Phễu bột thủy tinh, cuống ngắn, rộng</h2>
+            <h4 class="price">300.000 VND</h4>
+            <p class="description">Phễu bột thủy tinh cuống ngắn, miệng rộng là loại phễu chuyên dụng trong phòng thí nghiệm, được thiết kế để rót hoặc chuyển chất rắn như bột, tinh thể hoặc hạt vào bình chứa một cách dễ dàng mà không làm đổ vương vãi. Phễu được làm từ thủy tinh borosilicate chịu nhiệt và kháng hóa chất tốt, đảm bảo an toàn khi sử dụng với nhiều loại hóa chất. Thiết kế miệng rộng và thân ngắn giúp rót nguyên liệu khô nhanh chóng, ít bám dính và dễ làm sạch, đồng thời phù hợp với các chai hoặc bình có cổ hẹp. Đây là thiết bị cơ bản nhưng không thể thiếu trong các phòng thí nghiệm hóa học, sinh học và công nghiệp.</p>
         </div>
     </div>
-    <div id="productDiv"></div>
+    <div>
+        <button type="button" class="button1 btn btn-light">Thêm Vào Giỏ Hàng</button>
+        <button type="button" class="button2 btn btn-light">Mua Ngay</button>
+    </div>
     <div class="footer">
         <div>
             <h4 style="padding-bottom: 10px;">VỀ CHÚNG TÔI</h4>
@@ -82,6 +86,5 @@
             <h5 style="padding-bottom: 5px;">Dụng Cụ Thí Nghiệm</h5>
         </div>
     </div>
-    <script type="module" src="chemical.js"></script>
 </body>
 </html>
