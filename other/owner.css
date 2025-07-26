@@ -139,3 +139,39 @@
 .search_button:hover{
     background-color: #004fb0 !important;
 }
+.btn{
+    background-color: #0b6ce2 !important;
+    color: #EEEEEE !important;
+    margin: 10px 20px 10px 10px;
+}
+.btn:hover{
+    background-color: #004fb0 !important;
+}
+.container{
+    margin-top: 30px;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    width: 550px !important;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+.category{
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    background-color: #0b6ce2;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}
+h4:hover{
+    color: #ffb08f;
+}

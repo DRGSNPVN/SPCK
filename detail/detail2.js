@@ -18,7 +18,7 @@ const db = getFirestore(app)
     async function getProductById() {
         const params = new URLSearchParams(window.location.search)
         const productId = params.get("id")
-        const productSnap = await getDoc(doc(db, "product", productId))
+        const productSnap = await getDoc(doc(db, "product2", productId))
 
         if (productSnap.exists()) {
             return { id: productSnap.id, ...productSnap.data() }
@@ -29,15 +29,15 @@ const db = getFirestore(app)
     }
 
     async function displayProductDetail() {
-        const product= await getProductById()
-        if (product) {
+        const product2= await getProductById()
+        if (product2) {
             document.getElementById("product-detail").innerHTML = `
                 <div class="container">
-                    <img class="img" src="${product.img}" alt="${product.name}" width="200">
+                    <img class="img" src="${product2.img}" alt="${product2.name}" width="200">
                     <div class="productInfo">
-                        <h2 class="name">${product.name}</h2>
-                        <h4 class="price">Giá: ${product.price} VND</h4>
-                        <p class="description">${product.description}</p>
+                        <h2 class="name">${product2.name}</h2>
+                        <h4 class="price">Giá: ${product2.price} VND</h4>
+                        <p class="description">${product2.description}</p>
                     </div>
                 </div>`
         }

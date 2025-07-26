@@ -1,11 +1,11 @@
 .body{
     margin: 0px;
-    background-color:   #ffffff;
+    background-color: #EEEEEE;
 }
 .navbar{
     background-color: #0064de;
     height: 200px;
-    color: #ffffff;
+    color: #EEEEEE;
     z-index: 5;
     position: fixed;
 }
@@ -22,9 +22,10 @@
     border-right: solid 1.5px;
     height: 30px;
 }
-.left_navbar1{
+.ad{
     display: flex;
-    gap: 10px;
+    margin-left: -23px;
+    gap: 2px;
 }
 .h5{
     text-decoration: none;
@@ -53,6 +54,10 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 2;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    margin-left: -100px;
 }
 .notification:hover{
     cursor: pointer;
@@ -62,26 +67,8 @@
     display: block;
     color: #000000;
 }
-.language{
-    position: relative;
-    display: inline-block;
-}
-.language_dropdown{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 2;
-}
 .language:hover{
-    cursor: pointer;
     color: #ffb08f;
-}
-.language:hover .language_dropdown{
-    display: block;
-    color: #000000;
 }
 .cart{
     position: relative;
@@ -95,6 +82,10 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 2;
+    margin-left: -250px;
+    height: 200px;
+    width: 350px;
+    text-align: center;
 }
 .cart:hover{
     cursor: pointer;
@@ -104,6 +95,10 @@
     color: #000000;
 }
 .right_navbar1{
+    display: flex;
+    gap: 10px;
+}
+#login{
     display: flex;
     gap: 10px;
 }
@@ -135,6 +130,7 @@
     margin: 0px !important;
     border-radius: 10px !important;
     background-color: #0064de !important;
+    border: none !important;
 }
 .search_button:hover{
     background-color: #004fb0 !important;

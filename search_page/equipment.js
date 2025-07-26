@@ -40,7 +40,7 @@ products.forEach((product) =>{
     </div>`
 
     productDiv.addEventListener("click", function() {
-        window.location.href = `../detail/detail.html?id=${product.id}`
+        window.location.href = `../detail/detail2.html?id=${product.id}`
     })
 
     // const deleteButton = productDiv.querySelector(".delete")
@@ -58,3 +58,13 @@ async function deleteProduct(productId) {
     window.location.reload()
 }
 displayProduct()
+
+let user = localStorage.getItem("user")
+if(user) {
+    let login = document.getElementById("login")
+    login.innerHTML = user
+    login.addEventListener("click", () => {
+        localStorage.removeItem("user")
+        window.location.href = "../authentication/sign_up.html"
+    })
+}
